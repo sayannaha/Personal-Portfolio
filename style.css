@@ -67,6 +67,7 @@ nav{
 .btn{
     padding: 1rem 2rem;
     font-size: 1rem;
+    font-weight: bold;
     color: #fff;
     background-color: #1d4ed8;
     border-radius: 11px;
@@ -74,8 +75,23 @@ nav{
     transition: all 0.3s ease;
 }
 
+.btn-red{
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #D2042D;
+    border-radius: 11px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
 .btn:hover{
     background-color: #1e40af;
+}
+
+.btn-red:hover{
+    background-color: #811331;
 }
 
 .container{
@@ -341,7 +357,7 @@ footer .column > a:hover{
     margin: auto;
     padding: 1rem;
     padding-bottom: 3rem;
-    color: #fff;
+    color: #a6a6a6;
     font-size: 0.8rem;
     text-align: center;
 }

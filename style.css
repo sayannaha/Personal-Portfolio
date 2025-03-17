@@ -72,18 +72,18 @@ nav{
     font-weight: bold;
     color: #fff;
     background-color: #1d4ed8;
-    border-radius: 11px;
+    border-radius: 7px;
     cursor: pointer;
     transition: all 0.3s ease;
 }
 
-.btn-red{
+.btn-green{
     padding: 1rem 2rem;
     font-size: 1rem;
     font-weight: bold;
     color: #fff;
-    background-color: #D2042D;
-    border-radius: 11px;
+    background-color: #50C878;
+    border-radius: 7px;
     cursor: pointer;
     transition: all 0.3s ease;
 }
@@ -92,8 +92,8 @@ nav{
     background-color: #1434A4;
 }
 
-.btn-red:hover{
-    background-color: #811331;
+.btn-green:hover{
+    background-color: #008000;
 }
 
 .container{

@@ -401,4 +401,44 @@ footer .column > a:hover{
     footer{
         grid-template-columns: 1fr 150px;
     }
+    
+}
+.whatsapp-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 24px;
+    background-color: #25D366;
+    color: white;
+    border-radius:50px;
+    text-decoration: none;
+    font-family: system-ui, sans-serif;
+    font-weight: 500;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.whatsapp-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(37, 211, 102, 0.3);
+    color: white;
+}
+
+.whatsapp-button:active {
+    transform: translateY(0);
+}
+
+.ri-whatsapp-line {
+    font-size: 1.2em;
+}
+
+/* For screen readers */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
 }

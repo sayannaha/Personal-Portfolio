@@ -144,6 +144,8 @@ header .content p{
 header .image{
     position: relative;
     border-radius: 50%;
+    cursor: default;
+    text-decoration: none;
 }
 
 header .image::before{

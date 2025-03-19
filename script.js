@@ -9,6 +9,7 @@ const link2 = document.getElementById("link2");
 const link3 = document.getElementById("link3");
 const link4 = document.getElementById("link4");
 const link5 = document.getElementById("link5");
+const link6 = document.getElementById("link6");
 link1.addEventListener('click', () => {
     scrollToElement('.header');
 });
@@ -22,5 +23,8 @@ link4.addEventListener('click', () => {
     scrollToElement('.header', 3);
 });
 link5.addEventListener('click', () => {
-    scrollToElement('.column');
+    scrollToElement('.header', 4);
+});
+link6.addEventListener('click', () => {
+    scrollToElement('.header', 5);
 });

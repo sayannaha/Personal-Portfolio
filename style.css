@@ -33,7 +33,7 @@ body{
     padding: 5px 10px;
     font-size: 3.8rem;
     border-radius: 100%;
-    transition: all 0.3s ease;
+    transition: all 0.5s ease;
 }
 
 .whatsapp a:hover{
@@ -52,11 +52,16 @@ nav{
 
 .nav-logo{
     max-width: 100px;
-    font-size: 3.8rem;
+    font-size: 4.4rem;
 }
 
 .nav-logo a{
     color: #ccc;
+}
+
+.nav-logo a:hover{
+    color: #FF0000;
+    transition: all 0.5s ease;
 }
 
 .nav-logo-1{
@@ -372,7 +377,7 @@ footer .column > a:hover{
     padding: 1rem;
     padding-bottom: 3rem;
     color: #a6a6a6;
-    font-size: 0.8rem;
+    font-size: 1rem;
     text-align: center;
 }
 
